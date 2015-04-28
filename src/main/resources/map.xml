@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<rooms>
+		<room id="1">
+			<chests>
+				<chest id="1">
+					<item id="1" type="health_potion" />
+				</chest>
+			</chests>
+			<exits>
+				<exit room="2" direction="north" />
+				<exit room="3" direction="west" />
+			</exits>
+		</room>
+		<room id="2">
+			<exits>
+				<exit room="1" direction="south" />
+				<exit room="4" direction="west" />
+			</exits>
+		</room>
+	</rooms>
+</map>
