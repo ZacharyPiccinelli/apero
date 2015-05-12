@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <map>
 	<rooms>
 		<room id="1">
 			<chests>
 				<chest id="1">
-					<item id="1" type="health_potion" />
+					<!-- <item id="1" type="health_potion" /> -->
 				</chest>
 			</chests>
 			<exits>

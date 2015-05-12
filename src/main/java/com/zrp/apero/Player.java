@@ -1,8 +1,8 @@
 package com.zrp.apero;
 
 public class Player {
-	
-		private int room = 0;
+
+		private int room = 1;
 		private int bombCount = 0;
 		private int arrowCount = 0;
 		private int peerueCount = 5;
@@ -10,8 +10,8 @@ public class Player {
 		private double health = 3.0;
 		private int heartContainers = 3;
 		private Item[]items = null;
-		
-		
+
+
 		public boolean go(int roomNumber){
 			setRoom (roomNumber);
 			return true;
@@ -71,6 +71,4 @@ public class Player {
 		public void setItems(Item[] items) {
 			this.items = items;
 		}
-		
-		
 }
